@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <header>
       <div className="container nav-container">
-        <a href="#" className="logo">
-          <img src={logo} alt="Aura Logo" style={{ height: '70px' }} />
+        <a href="#top" className="logo" aria-label="Aura Organic Honey homepage">
+          <img src={logo} alt="Aura Organic Honey logo" className="logo-image" />
         </a>
 
-        <nav className="nav-links">
+        <nav className="nav-links" aria-label="Main navigation">
           <a href="#shop">Shop</a>
           <a href="#story">Our Story</a>
           <a href="#types">Honey Types</a>

@@ -93,7 +93,8 @@ const FlyingBee = () => {
 
   return (
     <div 
-      ref={beeRef} 
+      ref={beeRef}
+      className="flying-bee"
       style={{ 
         position: 'fixed', 
         top: 0, // Base position mapped by translate

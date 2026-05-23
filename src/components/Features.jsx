@@ -3,7 +3,7 @@ import { LeafIcon, BeeIcon, HiveIcon, TruckIcon, ReturnIcon, ShieldIcon, Headpho
 
 const Features = () => {
   return (
-    <section className="trust-features">
+    <section id="story" className="trust-features">
       <div className="container">
         
         {/* Top Banner section */}

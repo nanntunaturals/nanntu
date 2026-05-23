@@ -31,6 +31,7 @@ const Products = () => {
   return (
     <section id="shop" className="products">
       <div className="container">
+        <div id="types" className="section-anchor" />
         <div className="section-header animate-on-scroll">
           <h2>Our Featured Collection</h2>
           <p>Discover our range of artisanal honeys, each with its own unique flavor profile reflecting the blooming season.</p>
@@ -51,7 +52,7 @@ const Products = () => {
                 <p className="product-desc">{product.desc}</p>
                 <div className="product-footer">
                   <span className="product-price">{product.price}</span>
-                  <button className="btn btn-small">Add to Cart</button>
+                  <button type="button" className="btn btn-small" aria-label={`Add ${product.name} to cart`}>Add to Cart</button>
                 </div>
               </div>
             </div>

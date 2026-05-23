@@ -3,12 +3,12 @@ import logo from '../assets/logo1.png';
 
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="about">
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <a href="#" className="logo">
-              <img src={logo} alt="Aura Logo" style={{ height: '70px' }} />
+            <a href="#top" className="logo" aria-label="Aura Organic Honey homepage">
+              <img src={logo} alt="Aura Organic Honey logo" className="logo-image" />
             </a>
             <p>Reconnecting you with nature through the purest, most exquisite honeys sourced from pristine landscapes.</p>
           </div>
