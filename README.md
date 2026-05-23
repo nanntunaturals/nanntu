@@ -1,17 +1,35 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with Vite.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ⚡ Fast development with Vite
+- ⚛️ React-based UI
+- 🎨 Component-based architecture
+- 🔥 Hot Module Replacement (HMR)
+- 📦 Optimized production build
+- 🛠 ESLint support
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# nanntu
+```bash
+project-name/
+│
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images, icons, etc.
+│   ├── components/      # Reusable components
+│   ├── pages/           # Application pages
+│   ├── hooks/           # Custom React hooks
+│   ├── services/        # API calls and utilities
+│   ├── App.jsx          # Main App component
+│   ├── main.jsx         # Application entry point
+│   └── index.css        # Global styles
+│
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
