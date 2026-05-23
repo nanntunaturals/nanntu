@@ -4,7 +4,11 @@ import './index.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import WhyChooseUs from './components/WhyChooseUs';
 import Products from './components/Products';
+import Testimonials from './components/Testimonials';
+import Blog from './components/Blog';
+import FeaturedProducts from './components/FeaturedProducts';
 import Footer from './components/Footer';
 import FlyingBee from './components/FlyingBee';
 
@@ -40,7 +44,11 @@ function App() {
     <div className="app" id="top">
       <Header />
       <Hero />
+      <WhyChooseUs />
       <Features />
+      <FeaturedProducts />
+      <Testimonials />
+      <Blog />
       {/* <Products /> */}
       <Footer />
       
