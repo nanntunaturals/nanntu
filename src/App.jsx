@@ -41,7 +41,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
-      <Products />
+      {/* <Products /> */}
       <Footer />
       
       {/* The floating bee overlay */}
